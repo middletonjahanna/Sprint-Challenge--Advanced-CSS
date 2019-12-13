@@ -163,18 +163,24 @@ p {
 .navigation {
   display: flex;
   justify-content: center;
+  margin: 30px 30px;
+  padding-left: 16%;
 }
 .navigation h1 {
   font-size: 40px;
-  margin: 20px 20px;
+  margin-top: 30px 30px;
 }
-.links nav {
-  margin: 30px 30px;
+nav {
+  display: flex;
+  align-items: flex-end;
+  align-content: space-between;
 }
-.links nav a {
+nav a {
+  display: flex;
+  align-content: space-between;
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
 }
 footer {
   color: #22283B;
@@ -228,18 +234,25 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walk .btn a {
+  text-decoration: none;
+  color: black;
+}
+.home .walk .btn {
   border: 1px solid black;
   background-color: #374237;
   border: none;
-  color: white;
   padding: 12px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 12px;
+}
+.home .walk .btn:hover {
+  color: black;
+  background: white;
+  animation: 1.2s infinite pulse;
 }
 .home .walk .walk-img {
   width: 46%;
