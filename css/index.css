@@ -160,6 +160,12 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    max-width: 500px;
+  }
+}
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -261,18 +267,13 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .three {
-  --bg-color: #919185;
-  --fg-color: #1d1a1a;
+  --bg-color: #3a3a39;
+  --fg-color: #f5f0f0;
+  font-size: 16px;
+  padding: 8px;
 }
 .home .walk a {
-  display: table;
-  padding: 0.5em 1em;
-  transition: all 0.5s;
-  font-weight: bold;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 8px;
 }
 .home .walk .swap {
   background: var(--bg-color);
