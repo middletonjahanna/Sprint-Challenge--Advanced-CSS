@@ -254,7 +254,10 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .home .walk .walk-img {
+    order: -1;
   }
 }
 .home .walk .walk-text {
