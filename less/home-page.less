@@ -53,14 +53,29 @@
     }
   }
   
+  .three {
+    --bg-color: rgb(58, 58, 57);
+    --fg-color: rgb(245, 240, 240);
+    font-size: 16px;
+    padding:8px;
+    
+  }
+
   .walk {
     @media(max-width:500px){
+      .three{
+        padding: 4% 41%;
+  
+      }
+
+      
       // Order property used to place image on top
       .walk-img{
         order: -1;
         img{
           width: 95%;
         }
+
       }
       display: flex;
       flex-direction: column;
@@ -86,13 +101,7 @@
       }
     
       
-    .three {
-      --bg-color: rgb(58, 58, 57);
-      --fg-color: rgb(245, 240, 240);
-      font-size: 16px;
-      padding: 8px;
-      
-    }
+    
     a {
       text-decoration: none;
     }
