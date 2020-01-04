@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-An adaptive website uses breakpoints  which detect screen sizes and loads the appropriate layout for the best user experience on that particular device. A responsive website uses media queries  to chang the style of the webpage based on the device display type.
+An adaptive website uses breakpoints  which detect screen sizes and loads the appropriate layout for the best user experience on that particular device. A responsive website uses media queries  to change the style of the webpage based on the device display type.
 
 2. Describe what it means to be mobile first vs desktop first.
 
@@ -42,7 +42,7 @@ Mobile first is building a sites scalability primarily for mobile devices. This 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-This allows us to make easier calculation when using rem as the equivalent of 1 rem equals 10px. this makes calculating width and height, for exmple, much easier.
+This allows us to make easier calculations when using rem as the equivalent of 1 rem equals 10px. this makes calculating width and height, for exmple, much easier.
 
 4. How would you describe preprocessing to someone new to CSS?
 

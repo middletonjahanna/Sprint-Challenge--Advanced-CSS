@@ -8,7 +8,7 @@
       }
     }
     h2 {
-      padding: 15px;
+      .padding();
     }
     p {
       padding:0 15px;
@@ -32,19 +32,19 @@
     }
     .launch{
       @media(max-width:500px){
-        display:none;
+        .display();
          }
     }
   
     .sky{
   
       @media(max-width:500px){
-         display:none;
+         .display();
       }
     }
   }
   .visit-planets {
-    padding: 15px;
+    .padding();
     h3 {
       margin-top: 11px;
     }
@@ -56,8 +56,10 @@
   .three {
     --bg-color: rgb(58, 58, 57);
     --fg-color: rgb(245, 240, 240);
-    font-size: 16px;
-    padding:8px;
+   .design-properties(16px, 8px);
+   
+    // font-size: 16px;
+    // padding:8px;
     
   }
 
@@ -120,15 +122,5 @@
     }
 
     
-    // .walk-img {
-    //   width: 46%;
-    //   margin-left: 4%;
-      
-    //   img {
-    //     width: 100%;
-    //     height: auto;
-    //     border-radius: 10px;
-    //   }
-    // }
   }
 }
